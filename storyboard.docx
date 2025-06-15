@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Storyboard and Website Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Storyboard and Design Details</h1>
+
+        <section>
+            <h2> Wireframe (Hand-Drawn Layouts)</h2>
+            <p>
+                <a href="files/storyboard.pdf" target="_blank">Click here to view the full storyboard PDF</a> (includes hand-drawn wireframes for each page).
+            </p>
+        </section>
+
+        <section>
+            <h2> List of Web Pages and Their Purposes</h2>
+            <ul>
+                <li><strong>Home:</strong> Welcomes users and provides access to all sections of the site.</li>
+                <li><strong>Personal:</strong> Shares personal details like hobbies, interests, and background.</li>
+                <li><strong>Education:</strong> Displays academic history and educational journey.</li>
+                <li><strong>Skills:</strong> Lists skills, talents, and achievements.</li>
+                <li><strong>Professional:</strong> Describes career goals and professional interests.</li>
+                <li><strong>Development:</strong> Outlines self-improvement and future goals.</li>
+                <li><strong>Personality:</strong> Highlights character traits and behavior.</li>
+                <li><strong>Storyboard:</strong> Shows this planning document and layout designs.</li>
+                <li><strong>References:</strong> Gives credit to sources, books, and mentors.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> Theme of the Site</h2>
+            <p>
+                The theme is **"Modern & Personal Growth"**. The site uses calm, clean colors like sky blue, white, and soft gray. Graphics include personal icons and photos, appealing to students, teachers, or potential employers.
+            </p>
+        </section>
+
+        <section>
+            <h2> Features to Be Used</h2>
+            <ul>
+                <li>Image Gallery</li>
+                <li>Embedded Videos</li>
+                <li>Audio Clips</li>
+                <li>Interactive Navigation Menu</li>
+                <li>Downloadable Resume (PDF)</li>
+                <li>Contact Form</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> Free Hosting Link</h2>
+            <p>
+                <a href="https://kayondawes31.github.io/yourproject/" target="_blank">View hosted site on GitHub Pages</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
+css
+body 
+{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container 
+{
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 
+{
+    text-align: center;
+    color: #004a99;
+}
+
+h2 
+{
+    color: #003366;
+    margin-top: 25px;
+}
+
+ul 
+{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a 
+{
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
